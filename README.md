@@ -4,12 +4,14 @@ Simple Sudoku app, uses a simple random shuffle to generate or solve puzzles.
 Designed using windowbuilder in eclipse, uses only standard imports
 
 Build
+
   * Create a new java project in eclipse
   * Drop the files into src
   * right-click SudokoEx.java -> "Run As" -> "Java Application"
    * add file to project root to load from file
 
 Extra
+
 Puzzles can be loaded from a file
   * 123456789.txt in project root directory, original test file from http://www.kokolikoko.com/sudoku/
   * line format is e.g. 123456789876139524549827361365798412481265937792314856957682143214573698638941275
@@ -33,11 +35,12 @@ Allows modifying values in grid, but does not validate the values, solutions wil
   * to further clarify a few hundred executions the attempts are either less than 200 or 8100, which implies an optimization at lower level with this simple method
 
 How to
-  Load - Loads form file 
+
+* Load - Loads form file 
     *textbox - line number from file
-  Reset - return to "clue" 
-  Solve - will use "solvePuzzle()" *will always solve the puzzle again despite solution being stored
-  Random - will generate a random puzzle 
+* Reset - return to "clue" 
+* Solve - will use "solvePuzzle()" *will always solve the puzzle again despite solution being stored
+* Random - will generate a random puzzle 
 
 Potential improvements
   * On text change validate entry
