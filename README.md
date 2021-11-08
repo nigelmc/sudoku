@@ -4,10 +4,10 @@ Simple Sudoku app, uses a simple random shuffle to generate or solve puzzles.
 Designed using windowbuilder in eclipse, uses only standard imports
 
 Build
-  Create a new java project in eclipse
-  Drop the files into src
-  right-click SudokoEx.java -> "Run As" -> "Java Application"
-  * add file to project root to load from file
+  * Create a new java project in eclipse
+  * Drop the files into src
+  * right-click SudokoEx.java -> "Run As" -> "Java Application"
+   * add file to project root to load from file
 
 Extra
 Puzzles can be loaded from a file
